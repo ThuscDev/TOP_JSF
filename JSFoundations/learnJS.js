@@ -1,17 +1,9 @@
-function showMessage() {
-    alert('Hello Everyone');
+function min(a, b) {
+    if (a < b) {
+        return a;
+    } else {
+        return b;
+    }
 }
 
-let firstGreeting = prompt('Say Hello');
-const greetingArray = ['Hi', 'Hello', 'Hey', 'Guten Tag', 'Hola'];
-const commonGreetings = greetingArray;
-
-if (firstGreeting.toLowerCase() === commonGreetings) {
-    showMessage();
-}
-else (
-    alert('Why didn\'t you say hello')
-)
-
-
-
+min(2, 8);
